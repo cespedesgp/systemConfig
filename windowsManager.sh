@@ -28,5 +28,7 @@ apt install -y \
     fzf \                 # fuzzy finder em cli
     pcmanfm \             # gestor de arquivos (gui)
     ranger \              # gestor de arquivos (cli)
+    goldendict \          # gestor de dicionários
+    fonts-manager         # gestor de fontes
 
 echo "setxkbmap br" >> ~/.bashrc
