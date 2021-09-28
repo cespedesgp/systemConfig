@@ -29,6 +29,7 @@ apt install -y \
     pcmanfm \             # gestor de arquivos (gui)
     ranger \              # gestor de arquivos (cli)
     goldendict \          # gestor de dicionários
-    fonts-manager         # gestor de fontes
+    fonts-manager \       # gestor de fontes
+    exfalso               # para customizar tags de mp3
 
 echo "setxkbmap br" >> ~/.bashrc
