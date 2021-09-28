@@ -28,3 +28,5 @@ apt install -y \
     fzf \                 # fuzzy finder em cli
     pcmanfm \             # gestor de arquivos (gui)
     ranger \              # gestor de arquivos (cli)
+
+echo "setxkbmap br" >> ~/.bashrc
