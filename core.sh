@@ -11,4 +11,6 @@ apt install -y \
 #    pulseaudio-bluetooth \ # plugin do pulseaudio para bluetooth
 #    bluez-tools \          # gerenciador do bluetooth (cli)
     intel-microcode \ # microcode intel
-#    firmwares
+#    firmwares \       # firmwares necessários, depende do hardware
+#    iptables \        # firewall iptables, firewall mais avançado
+#    ufw \             # uncomplicated firewall, firewall mais simples de usar
