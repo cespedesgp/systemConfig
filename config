@@ -1,0 +1,19 @@
+# arquivo de configuração i3-wm
+# baseado no arquivo de Blau Araujo
+# visite o canal debxp url https://www.youtube.com/watch?v=u3ADGUxk1rY
+
+# tecla modificadora de comandos do i3-wm
+set $mod Mod4
+
+# resumo de comandos -------------------------------------------------------
+set $sup bindsym Mod4
+set $exe exec --no-startup-id
+set $exe_alw exec_always --no-startup-id
+
+# Configurações de aparência -----------------------------------------------
+font pango: Open Sans 8
+# class                  border  backgr  text       indicator  client_border
+client.focused           $black  $black  $blue      $cyan      $black
+client.unfocused         $darker $darker $darkblue  $cyan      $darker
+client.focused_inactive  $dark   $dark   $darkblue  $cyan      $dark
+client.urgent            $red    $red    $dark      $cyan      $red
